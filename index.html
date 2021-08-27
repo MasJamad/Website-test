@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fastabika Travel | Let's Fly With Us</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,100;1,400;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="custom/owl.carousel.min.css">
+    <link rel="stylesheet" href="custom/owl.theme.default.min.css">
+    <link rel="stylesheet" href="custom/custom.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header id="header">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#">Pagoda</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="nav-menu">
+            <ul class="navbar-nav ms-auto me-3">
+              <li class="nav-item">
+                <a href="#" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#popular" class="nav-link">Trip</a>
+              </li>
+              <li class="nav-item">
+                <a href="#service" class="nav-link">Service</a>
+              </li>
+              <li class="nav-item">
+                <a href="#testimonial" class="nav-link">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <!-- Btn Login -->
+            <a href="#" class="btn px-4 py-2 bg-dark text-white">Masuk</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Navbar -->
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero-section" style="background-image: url(/image/Image1.jpg);">
+      <!-- Card Reservation -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-10 col-md-8 col-lg-5">
+            <div class="card card-reservation">
+              <div class="card-body px-4">
+                <h1 class="card-title fw-bold fs-1">Make your trip easy and enjoyable</h1>
+                <p class="card-text">
+                  Find your best destination easily, <br />
+                  safely, and quickly
+                </p>
+                <div class="reservation-menu">
+                  <h5 class="reservation-header">Search Flights</h5>
+                  <a class="flight-info" href="#"><u>Get the latest on our Covid-19 response</u></a>
+                  <div class="form-reservation py-3 my-3">
+                    <div class="row flight-iata text-center d-flex flex-column flex-sm-row flex-lg-row">
+                      <div class="col ">
+                        <form action="">
+                          <label for="departure-city">Departure City: <input class="my-2 py-2 text-center" list="departure-city" name="departure-city" type="text" placeholder="Departure City" /> </label>
+                          <datalist id="departure-city">
+                            <option value="Jakarta">Jakarta (CGK)</option>
+                            <option value="Banjarmasin">Banjarmasin (BDJ)</option>
+                            <option value="Medan">Medan (KNO)</option>
+                            <option value="Surabaya">Surabaya (SUB)</option>
+                          </datalist>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <form action=""
+                          <label for="arrival-city">Arrival City: <input class="my-2 py-2 text-center" list="arrival-city" name="arrival-city" type="text" placeholder="Arrival City" /> </label>
+                          <datalist id="arrival-city">
+                            <option value="Jakarta">Jakarta (CGK)</option>
+                            <option value="Banjarmasin">Banjarmasin (BDJ)</option>
+                            <option value="Medan">Medan (KNO)</option>
+                            <option value="Surabaya">Surabaya (SUB)</option>
+                          </datalist>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="row date-control text-center">
+                      <div class="col">
+                        <form action="" class="departure-date">
+                          <label for="departure-date">Departure : <Input class="my-2 py-2" type="date" name="departure-date" placeholder="Departure"></Input></label>
+                        </form>
+                      </div>
+                      <div class="col text-center">
+                        <form action="" class="arrival-date">
+                          <label for="arrival-date">Arrival : <Input class="my-2 py-2" type="date" name="arrival-date" placeholder="Arrival"></Input></label>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="passenger-control mt-2 text-center">
+                      <div class="row">
+                        <div class="col">
+                          <div class="row">
+                            <label for="passenger-adult">
+                              Adults:
+                            </label>
+                            <div class="col">1</div>
+                            <div class="col d-flex flex-column my-2">
+                              <i class='bx bx-plus-circle'></i>
+                              <i class='bx bx-minus-circle' ></i>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="row">
+                            <label for="passenger-child">
+                              Children:
+                            </label>
+                            <div class="col">0</div>
+                            <div class="col d-flex flex-column my-2">
+                              <i class='bx bx-plus-circle'></i>
+                              <i class='bx bx-minus-circle' ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="btn-submit text-center mt-2">
+                      <button type="submit" class="btn btn-custom text-white">Book Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <section class="info" id="info">
+      <div class="container text-white p-3 my-5 rounded-3">
+        
+      
+        <div class="row text-center d-flex flex-row flex-sm-row ">
+          <div class="col col-sm-3">
+            <h3 class="info-title ">12 <br> Year</h3>
+          </div>
+          <div class="col col-sm-3">
+            <h3 class="info-title">60K + <br>Trip</h3>
+          </div>
+          <div class="col col-sm-3">
+            <h3 class="info-title">200 + <br>Destinasi</h3>
+          </div>
+          <div class="col col-sm-3">
+            <h3 class="info-title">10<br>Patners</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular" id="popular">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col text-white my-2">
+            <h3 class="popular-header">Popular Destinations</h3>
+            <p class="popular-text">Find a destination that suits your needs</p>
+          </div>
+        </div>
+        <div class="row owl-carousel owl-theme">
+          <div class="col ">
+            <div class="card">
+              <img class="card-img-top" src="image/Mask Group 1.jpg" alt="popular">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Enjoy the beauty of Medan
+                </h5>
+                <p class="card-text">
+                  Kualanamu, Medan
+                </p>
+                <div class="row">
+                  <div class="col"><i class='bx bxs-star '></i><span class="review"> 4.2 ( 1.8K Review)</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="image/Mask Group 2.jpg" alt="popular">
+              <div class="card-body">
+                <h5 class="card-title">Enjoy the beauty of Surabaya</h5>
+                <p class="card-text">Juanda, Surabaya</p>
+                <div class="row">
+                  <div class="col"><i class='bx bxs-star '></i><span class="review"> 4.2 ( 1.8K Review)</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="image/Mask Group 3.jpg" alt="popular">
+              <div class="card-body">
+                <h5 class="card-title">Enjoy the beauty of <br> Solo</h5>
+                <p class="card-text">Adi Soemarno, Solo</p>
+                <div class="row">
+                  <div class="col"><i class='bx bxs-star '></i><span class="review"> 4.2 ( 1.8K Review)</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="image/Mask Group 4.jpg" alt="popular">
+              <div class="card-body">
+                <h5 class="card-title">Enjoy the beauty of <br>Jogja</h5>
+                <p class="card-text">Adi Sucipto, Jogjakarta</p>
+                <div class="row">
+                  <div class="col"><i class='bx bxs-star '></i><span class="review"> 4.2 ( 1.8K Review)</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+    </section>
+
+    <section class="service mb-5 pb-5" id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h3 class="service-header">Service</h3>
+            <p class="service-text">We strive to provide the best service</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 d-flex flex-row my-2">
+            <img class="img-fluid" src="image/Group 6.png" alt="">
+            <div class="img-service mx-2">
+              <h4 class="img-header">Simple Booking</h4>
+              <p class="img-text">Book tickets quickly, safely and easily</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 d-flex flex-row my-2">
+            <img class="img-fluid" src="image/Group 7.png" alt="">
+            <div class="img-service mx-4">
+              <h4 class="img-header">Simple Profile</h4>
+              <p class="img-text">Easily complete your travel data</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 d-flex flex-row my-2">
+            <img class="img-fluid" src="image/Group 8.png" alt="">
+            <div class="img-service mx-3">
+              <h4 class="img-header">Simple Reschedule</h4>
+              <p class="img-text">Ease of applying for schedule changes</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 d-flex flex-row my-2">
+            <img class="img-fluid" src="image/Group 11.png" alt="">
+            <div class="img-service mx-2">
+              <h4 class="img-header">Simple Refund</h4>
+              <p class="img-text">Ease of applying for your travel refund</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="testimonial my-5 py-5" id="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3 class="testimonial-header text-center">
+              What do they think about our service?
+            </h3>
+          </div>
+        </div>
+        <div class="row my-3 d-flex flex-column-reverse flex-md-row">
+          <div class="col align-self-center mt-2">
+            <h1 class="testimonial-passenger-header">
+              Travel easy and without worry
+            </h1>
+            <p class="testimonial-passenger-text mt-3">
+              I am a worker in the social ministry, fastabika help us on every trip,we can consult related, recommendations of flight schedules, trains, hotels and ease in our travel information.
+            </p>
+            <div class="data-passenger align-self-bottom">
+              <h6 class="name-passenger fw-bold">Jasmine Thea</h6>
+              <p class="role-passenger">Costumer from Surabaya, East Java</p>
+              <i class='bx bx-smile'></i><span><i class='bx bx-like' ></i></span>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 ">
+            <img min-width="80%" class="img-fluid" src="image/Group 12.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer py-5" id="offer">
+      <div class="container text-white">
+        <div class="row text-center">
+          <div class="col">
+            <h3 class="offer-header mt-5">
+              Set your dreams and travel with us
+            </h3>
+            <p class="offer-text">
+              Get special offers to join our members and partners.
+            </p>
+          </div>
+          <form action="">
+            <input class="py-2 my-4 rounded" type="text" name="input-email" id="email" class="input-email">
+          </form>
+          <div class="row">
+            <div class="col">
+              <a class="btn btn-help mx-2 " href="#">Need Help</a>
+              <a href="#" class="btn btn-cta mx-2">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer my-5" id="footer">
+      <div class="container">
+        <div class="row d-flex justify-content-evenly">
+          <div class="col-12 col-md-3">
+            <h4 class="footer-header">Fastabika Travel</h4>
+            <p class="footer-text">We strive to provide easy,
+              convenient, and safe travel services 
+              with a variety of options for customers.</p>
+          </div>
+          <div class="col-6 col-md-2 my-2 footer-menu">
+            <h6 class="footer-menu-item active">Home</h6>
+            <p class="footer-menu-item">Trip</p>
+            <p class="footer-menu-item">Service</p>
+            <p class="footer-menu-item">Testimonial</p>
+            <p class="footer-menu-item">Contact</p>
+          </div>
+          <div class="col-6 col-md-2 my-2 footer-company">
+            <h6 class="footer-company-item">Company</h6>
+            <p class="footer-company-item">About</p>
+            <p class="footer-company-item">Help</p>
+            <p class="footer-company-item">Career</p>
+            <p class="footer-company-item">Media</p>
+          </div>
+          <div class="col-6 col-md-2 my-2 footer-account">
+            <h6 class="footer-account-item">Account</h6>
+            <p class="footer-account-item">Security</p>
+            <p class="footer-account-item">Member</p>
+            <p class="footer-account-item">Rewards</p>
+          </div>
+          <div class="col-6 col-md-2 my-2 connected">
+            <h6 class="connected-item">Get Connected</h6>
+            <p class="connected-item">Bogor</p>
+            <p class="connected-item">Indonesia</p>
+            <p class="connected-item">0857-8515-0153</p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p class="text-copyright text-center fw-lighter">2021 &#169; Copyright Fastabika Travel, All Right Reserved, Made In Depok </p>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="custom/jquery-3.6.0.min.js"></script>
+  <script src="custom/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      autoplay: true,
+      autoplayTimeout:1500,
+      autoplayHoverPause: true,
+      responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+      }
+    });
+    });
+  </script>
+</html>
